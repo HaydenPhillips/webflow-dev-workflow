@@ -46,7 +46,9 @@ In Webflow, go to _Site settings >> Custom code_
 
 - add JS files to the _Footer code_ section in a `<script>`, e.g.
   `<script src="http://localhost:8000/index.js"></script>`
-  ![image](https://github.com/haydenphillips/webflow-dev-workflow/assets/27249781/5b2573e6-21fd-4652-b0e5-cbe084149da4)
+  ![footer-code-script-tag-example](https://github.com/user-attachments/assets/2e461855-6c31-4908-a997-c76f1791f238)
+
+
 
 Save and publish.
 
@@ -69,7 +71,8 @@ Look for your logged message in the console.
 
 1. In Webflow, go to _Site Settings >> Custom code >> Footer code_ (or _Head code_ for CSS).
    Add `src="https://cdn.jsdelivr.net/gh/haydenphillips/webflow-dev-workflow/client-projects/[current project]/dist/index.js"` within the script tag, or your CSS link within the link tag.
-   ![image](https://github.com/haydenphillips/webflow-dev-workflow/assets/27249781/3fce42cc-4e66-443a-8aa1-69c9f817d546)
+   ![footer-code-script-tag-cdn-example](https://github.com/user-attachments/assets/bbdeeac5-842e-44c2-bfb5-9a21663b67b9)
+
 
 1. Save and publish.
 
