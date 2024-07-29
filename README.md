@@ -12,7 +12,7 @@ to install dependencies.
 
 Within `/client-projects`, create a new folder for the project you are working on, with an `index.ts` file inside. (`/client-projects/[current-project]/index.ts`)
 
-Add `console.log('[message of your choice]')` in the `index.ts` file so you can test it (I like `"woof!"`, but you do you.)
+Add `console.log('[message of your choice]')` in the `index.ts` file so you can test it.
 
 ## Local development
 
